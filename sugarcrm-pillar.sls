@@ -1,4 +1,7 @@
 sugarcrm:
+    cli:
+        source: http://apt.inetprocess.fr/pub/sugarcli.phar
+        hash:  'sha512=56d829892b3ddf742aad20b6582322c8894b6bbb81a1684adde268a0a32d61885bdcbe1dd7fd9a8227e94ed8b154e80d7154a72fd69cf41a287b0b72e793ea99'
     sites:
         diplomovka:
           username: slavo
