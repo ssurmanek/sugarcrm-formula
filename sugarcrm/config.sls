@@ -1,5 +1,5 @@
 {% from "sugarcrm/map.jinja" import map with context %}
-{% for site in salt['pillar.get']('sugarcrm:sites', {}).items() %}
+{% for site in pillar['sugarcrm']['sites'] %}
 
 # This command tells sugarcli.phar to create our config.php, DB info needs to be the same as above
 config_sugarcrm:
