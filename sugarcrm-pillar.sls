@@ -9,6 +9,7 @@ sugarcrm:
           username: root
           password: secret
           database: dpdatabase
+          dbhost: localhost
           dbuser: slavo
           dbpass: secret
           url: http://localhost
