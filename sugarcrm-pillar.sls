@@ -3,7 +3,7 @@ sugarcrm:
     hash: 'sha512=5bb4be27a1cabe8e0b3e20698a12ac52e15159077a73295e6170a30e8ff5f31c7a395797c2812936ad721b9472d19570c20c092c1a43f3954cd2c2149fb7ec44'
     cli:
         source: https://github.com/inetprocess/sugarcli/releases/download/v1.17.1/sugarcli.phar
-        hash:  'sha512=cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e'
+        hash:  'sha512=4f60858f95b07111ea2f4aa739ce600d4ba305796b62f97fd6f216f81f875c5d1a9014718adb3b4db0e99b78424b1949f56a7136755e72cdf5beb4ebaa900a7f'
     sites:
         diplomovka:
           username: root
