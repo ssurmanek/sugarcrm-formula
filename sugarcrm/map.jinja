@@ -1,12 +1,12 @@
 {% set map = salt['grains.filter_by']({
     'default': {
-        'docroot': '/var/www/html',
+        'docroot': '/www/html',
         'www_group': 'www-data',
         'www_user': 'www-data',
         'tmp_dir': '/tmp',
     },
     'Debian': {
-        'docroot': '/www/html',
+        'docroot': '/var/www/html',
         'www_group': 'www-data',
         'www_user': 'www-data',
         'tmp_dir': '/tmp',
