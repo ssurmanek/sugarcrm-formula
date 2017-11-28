@@ -1,6 +1,6 @@
 {% from "sugarcrm/map.jinja" import map with context %}
 
-#list existing users
+#list existing users from all sites:
 {% for id, site in salt['pillar.get']('sugarcrm:sites', {}).items() %}
 list_{{ id }}_users:
   cmd.run:
